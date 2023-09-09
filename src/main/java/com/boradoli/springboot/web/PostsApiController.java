@@ -27,4 +27,5 @@ public class PostsApiController {
     public PostsResponseDto fintById (@PathVariable Long id){
         return postsService.findById(id);
     }
+
 }
