@@ -11,7 +11,6 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
@@ -61,9 +60,9 @@ class PostsRepositoryTest {
         // then
         Posts posts = postsList.get(0);
 
-        System.out.println(">>>>>>>>>>> createDate= " + posts.getCreateDate() + ", modifyDate = "+posts.getModifiedDate());
+        System.out.println(">>>>>>>>>>> createDate= " + posts.getCreatedDate() + ", modifyDate = "+posts.getModifiedDate());
 
-        assertThat(posts.getCreateDate()).isAfter(now);
+        assertThat(posts.getCreatedDate()).isAfter(now);
         assertThat(posts.getModifiedDate()).isAfter(now);
     }
 }
