@@ -1,3 +1,6 @@
 # Project exclude paths
 .gradle
 .idea
+
+### IntelliJ IDEA ###
+**/application-oauth.properties
