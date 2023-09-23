@@ -1,5 +1,5 @@
 # Project exclude paths
-.gradle
+#.fgradle
 .idea
 
 ### IntelliJ IDEA ###
