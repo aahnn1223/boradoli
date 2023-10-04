@@ -8,7 +8,7 @@
 name: freelec-springboot2-webservice-deploy # (0) GitHub Action에서 보여질 이름을 지정합니다.
 
 env:
-  S3_BUCKET_NAME: 
+  S3_BUCKET_NAME: springweb-tei-93
   PROJECT_NAME: boradoli
   CODE_DEPLOY_APP_NAME:  # CodeDeploy 애플리케이션 이름
   CODE_DEPLOY_GROUP_NAME:  # CodeDeploy 애플리케이션 배포그룹 이름
